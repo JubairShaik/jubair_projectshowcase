@@ -1,5 +1,5 @@
 const config = {
-  projectId: "8sfwwolx",
+  projectId: process.env.SANITY_PROJECT_ID ,
   dataset: "production",
   apiVersion: "2023-07-26",
 }

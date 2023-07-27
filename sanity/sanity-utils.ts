@@ -8,7 +8,7 @@ import { Page } from "@/types/Page";
 
 //     const client = createClient({
 
-//         projectId: '8sfwwolx',
+//         projectId: '********',
 
 //         dataset: 'production',
        
