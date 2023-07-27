@@ -1,9 +1,30 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+interface ProjectType {
+  // Add your project properties here
+ 
+  _id: string;
+  createdAt: Date;
+  name: string;
+  slug: string;
+  image: string;
+  url: string;
+  content: PortableTextBlock[];
 
 
-const Projectcard = ({ projects }) => {
+}
+
+
+// Define the type for the props of the Projectcard component
+interface ProjectcardProps {
+  projects: ProjectType[];
+}
+
+
+
+
+const Projectcard: React.FC<ProjectcardProps> = ({ projects }) => {
     return (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-6">
         {projects.map((project) => (
@@ -21,8 +42,7 @@ const Projectcard = ({ projects }) => {
             <div className="px-2 pt-3 flex justify-between  items-center">
               <h2 className="text-xl font-semibold text-slate-300">{project.name}</h2>
             </div> 
-            {/* <Link href={project.url} target="_blank" className="text-sm  rounded-md text-white  bg-slate-700 p-2 hover:text-indigo-600"> Live Website </Link>
-                */}
+          
           </div>
 
           </Link>
