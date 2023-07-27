@@ -10,7 +10,6 @@ interface ProjectType {
   slug: string;
   image: string;
   url: string;
-  content: PortableTextBlock[];
 
 
 }
