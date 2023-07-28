@@ -10,6 +10,12 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        mont : ["Montserrat", "sans-serif"],
+        comf : ["Comfortaa", "cursive"],
+      },
+      
+      transitionTimingFunction: {
+        'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
       },
 
 
@@ -29,6 +35,8 @@ module.exports = {
           100: "rgba(59,60,152,0.02)",
         },
         grey: "#747A88",
+        'primary-black': '#1A232E',
+        'secondary-white': '#c7c7c7',
       },
       backgroundImage: {
         'pattern': "url('/pattern.png')",
