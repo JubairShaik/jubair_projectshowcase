@@ -23,7 +23,7 @@ export default async function RootLayout({
     <html lang="en">
 
 
-      <body className="md:px-[5rem] bg-primary-black md:m-[4rem]  m-[0.6rem] px-[1rem]">
+      <body className="md:px-[5rem] bg-primary-black md:m-[4rem]  m-[0.6rem] px-[0.69rem]">
         <header className="flex items-center justify-between">
           
           <Navbar pages={pages} />

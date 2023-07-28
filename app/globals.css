@@ -21,7 +21,7 @@
 .headingText{
 
   @apply font-bold  drop-shadow text-transparent bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text
-  lg:text-[134px] md:text-[90px] sm:text-[50px] text-[34px]
+  lg:text-[134px] md:text-[90px] sm:text-[50px] text-[40px]
    lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px]
     leading-[64.4px] uppercase 
 }
@@ -29,9 +29,9 @@
 .titleText{
 
   @apply font-bold  drop-shadow text-transparent bg-gradient-to-r from-orange-400 via-red-500 to-yellow-600 bg-clip-text
-  lg:text-[91px] md:text-[75px] sm:text-[40px] text-[28px]
+  lg:text-[91px] md:text-[75px] sm:text-[40px] text-[38px]
    lg:leading-[148.4px] md:leading-[104.4px] sm:leading-[66.4px]
-    leading-[54.4px] uppercase 
+    leading-[50.4px] uppercase 
 }
 
 .headingText2{
@@ -41,7 +41,7 @@
 
 .headingD{
 
-  @apply  md:w-[202px] sm:w-[90px] w-[50px] md:h-[98px] sm:h-[38px] h-[25px] text-yellow-500 md:border-[15px] border-[6px] rounded-r-[50px] border-violet-500 sm:mx-2 mx-[6px]
+  @apply  md:w-[202px] sm:w-[90px] w-[50px] md:h-[98px] sm:h-[38px] h-[30px] text-yellow-500 md:border-[15px] border-[6px] rounded-r-[50px] border-violet-500 sm:mx-2 mx-[6px]
 }
 
 
